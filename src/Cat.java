@@ -28,11 +28,11 @@ public class Cat
     public String speak() {
         int ranNum = (int)(Math.random() * 3) + 1;
         if (ranNum == 1){
-            return "meow";
+            return "meow!";
         } else if (ranNum == 2){
-            return "purr";
+            return "purr!";
         } else {
-            return "hiss";
+            return "hiss!";
         }
     }
 
